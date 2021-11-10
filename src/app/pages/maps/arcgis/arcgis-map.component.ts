@@ -36,7 +36,7 @@ export class ArcGISMapComponent implements OnInit, OnDestroy {
     isConnected: boolean = false;
 
     constructor(
-        // private fbs: FirebaseService
+        private fbs: FirebaseService
         private fbs: FirebaseMockService
     ) { }
 
